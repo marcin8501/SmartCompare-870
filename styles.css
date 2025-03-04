@@ -1,0 +1,64 @@
+/* Previous styles remain, adding new styles for analysis */
+.pa-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pa-close {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #4a5568;
+  padding: 4px 8px;
+}
+
+.pa-close:hover {
+  color: #2d3748;
+}
+
+.pa-analysis {
+  background: #f7fafc;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.pa-analysis p {
+  color: #4a5568;
+  line-height: 1.5;
+}
+
+.pa-features {
+  margin: 12px 0;
+  padding: 12px;
+  background: #f7fafc;
+  border-radius: 6px;
+}
+
+.pa-why-better {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.pa-why-better h5 {
+  color: #2d3748;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.pa-why-better p {
+  color: #4a5568;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.pa-price {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d3748;
+  margin: 8px 0;
+}
